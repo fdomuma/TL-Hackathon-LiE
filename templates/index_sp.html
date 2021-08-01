@@ -1,0 +1,24 @@
+<html>
+   <body>
+    <form action = "https://less-is-enough.herokuapp.com/single_prediction_results" method = "POST"
+         enctype = "multipart/form-data">
+         <label for="week">Week:</label>
+         <input type = "text" id="week" name = "week" />
+         <br>
+         <label for="checkout_price">Checkout price:</label>
+         <input type = "text" id="checkout_price" name = "checkout_price" />
+         <br>
+         <label for="base_price">Base price:</label>
+         <input type = "text" id="base_price" name = "base_price" />
+         <br>
+         <label for="center_id">Center id:</label>
+         <input type = "text" id="center_id" name = "center_id" />
+         <br>
+         <label for="meal_id">Meal id:</label>
+         <input type = "text" id="meal_id" name = "meal_id" />
+         <br>
+         <br>
+         <input type = "submit" value="Predict!"/>
+    </form>
+   </body>
+</html>

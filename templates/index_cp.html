@@ -1,0 +1,31 @@
+<html>
+   <body>
+    <form action = "https://less-is-enough.herokuapp.com/compare_prices_results" method = "POST"
+         enctype = "multipart/form-data">
+         <label for="week">Week:</label>
+         <input type = "text" id="week" name = "week" />
+         <br>
+         <label for="base_price">Base price:</label>
+         <input type = "text" id="base_price" name = "base_price" />
+         <br>
+         <label for="center_id">Center id:</label>
+         <input type = "text" id="center_id" name = "center_id" />
+         <br>
+         <label for="meal_id">Meal id:</label>
+         <input type = "text" id="meal_id" name = "meal_id" />
+         <br>
+         <br>
+         <label for="checkout_price_min">Minimum checkout price:</label>
+         <input type = "text" id="checkout_price_min" name = "checkout_price_min" />
+         <br>
+         <label for="checkout_price_max">Maximum checkout price:</label>
+         <input type = "text" id="checkout_price_max" name = "checkout_price_max" />
+         <br>
+         <label for="checkout_price_step">Range step:</label>
+         <input type = "text" id="checkout_price_step" name = "checkout_price_step" />
+         <br>
+         <br>
+         <input type = "submit" value="Predict!"/>
+    </form>
+   </body>
+</html>
